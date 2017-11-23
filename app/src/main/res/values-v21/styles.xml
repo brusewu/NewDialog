@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Custom" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/title</item>
+        <item name="DialogSpotColor">@android:color/holo_orange_light</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+    <style name="New" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/title</item>
+        <item name="DialogSpotColor">@android:color/holo_red_dark</item>
+        <item name="DialogSpotCount">6</item>
+    </style>
+</resources>

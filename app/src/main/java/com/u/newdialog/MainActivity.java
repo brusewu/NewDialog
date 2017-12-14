@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(android.R.id.button2).setOnClickListener(this);
         findViewById(android.R.id.button3).setOnClickListener(this);
         findViewById(android.R.id.closeButton).setOnClickListener(this);
+
+
+
     }
 
     @Override
